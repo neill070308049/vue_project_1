@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>我是哈哈组件</h2>
+        <h2>我是嘻嘻组件</h2>
     </div>
 </template>
 
