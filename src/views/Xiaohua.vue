@@ -13,6 +13,8 @@
             }
         },
         created() {
+            console.log(this.$router);
+            console.log(this.$route);
             this.id = (this.$route.params.id);
         },
     }
