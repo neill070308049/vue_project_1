@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h2>我是哈哈组件</h2>
-        <router-view></router-view>
+        <h3>发改新闻</h3>
     </div>
 </template>
 

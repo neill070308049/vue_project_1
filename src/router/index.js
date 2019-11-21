@@ -5,32 +5,20 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/haha',
-    name: 'haha',
-    component: () => import('../views/Haha.vue'),
-    children: [
-      {
-        path: 'daxiao',
-        name: 'daxiao',
-        component: () => import('../views/Daxiao.vue')
-      },
-      {
-        path: 'kuangxiao',
-        name: 'kuangxiao',
-        component: () => import('../views/Kuangxiao.vue')
-      }
-    ]
-  },
-  {
-    path: '/xixi',
-    name: 'xixi',
-    component: () => import('../views/Xixi.vue'),
-    children: [
-      {
-        path: ':id',
-        name: 'xiaohua',
-        component: () => import('../views/Xiaohua.vue')
-      }
+    path: '/index',
+    name: 'index',
+    component: () => import('../views/Index.vue'),
+    children:[
+        { 
+            path: 'news',
+            name: 'news',
+            component: () => import('../views/News.vue'),
+        },
+        { 
+            path: ':id',
+            name: 'shenpishixiang',
+            component: () => import('../views/Shenpishixiang.vue'),
+        }
     ]
   }
 ]

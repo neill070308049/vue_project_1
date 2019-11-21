@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>我是第{{id}}个笑话</h1>
-        123
+        <h3>第{{id}}号审批事项</h3>
     </div>
 </template>
 
@@ -13,9 +12,7 @@
             }
         },
         created() {
-            console.log(this.$router);
-            console.log(this.$route);
-            this.id = (this.$route.params.id);
+           this.id = this.$route.params.id
         },
     }
 </script>
