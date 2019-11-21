@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>我是第{{id}}个笑话</h1>
+        123
     </div>
 </template>
 
@@ -12,7 +13,6 @@
             }
         },
         created() {
-            console.log(this.$route.params.id);
             this.id = (this.$route.params.id);
         },
     }
