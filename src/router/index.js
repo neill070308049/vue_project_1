@@ -13,14 +13,27 @@ const routes = [
             path: 'news',
             name: 'news',
             component: () => import('../views/News.vue'),
+            children:[
+              {
+                path: 'zhengce',
+                name: 'zhengce',
+                component: () => import('../views/Zhengce.vue')
+              },
+              {
+                path: '*',
+                redirect: {
+                  name: 'zhengce'
+                }
+              }
+            ]
         },
         { 
             path: ':id',
             name: 'shenpishixiang',
             component: () => import('../views/Shenpishixiang.vue'),
-        }
+        },
     ]
-  }
+  },
 ]
 
 const router = new VueRouter({

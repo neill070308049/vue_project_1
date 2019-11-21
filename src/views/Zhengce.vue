@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h3>发改新闻</h3>
-        <router-view></router-view>
+        <h3>我是政策</h3>
     </div>
 </template>
 
@@ -11,6 +10,8 @@
     }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="less" scoped>
+    h3{
+        color: red;
+    }
 </style>
