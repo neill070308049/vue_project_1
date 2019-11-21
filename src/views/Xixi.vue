@@ -1,6 +1,7 @@
 <template>
     <div>
         <h2>我是嘻嘻组件</h2>
+        <router-view></router-view>
     </div>
 </template>
 
