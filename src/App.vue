@@ -12,8 +12,5 @@
 </script>
 
 <style lang="less" scoped>
-    h1{
-      color:purple;
-      font-weight: bold;
-    }
+    
 </style>
