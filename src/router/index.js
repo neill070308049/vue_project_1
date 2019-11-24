@@ -8,7 +8,6 @@ const routes = [
     path: '/index',
     name: 'index',
     component: () => import('../views/Index.vue'),
-    
   },
 ]
 
