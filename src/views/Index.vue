@@ -26,7 +26,7 @@
                 </el-submenu>
         </el-submenu>
     </el-menu>
-    123
+    <router-view></router-view>
   </div>
 </template>
 

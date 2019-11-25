@@ -8,6 +8,13 @@ const routes = [
     path: '/index',
     name: 'index',
     component: () => import('../views/Index.vue'),
+    children:[
+      {
+        path: 'jingfaju',
+        name: 'jingfaju',
+        component: () => import('../views/Jingfaju.vue')
+      }
+    ]
   },
 ]
 
